@@ -2,8 +2,8 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import LandingPage from "./landingpage";
 import Contact from "./Contact";
-import Projects from "../../../../week-21/multi/src/components/projects";
-import Resume from "../../../../week-21/multi/src/components/Resume";
+import Projects from "./projects";
+import Resume from "./Resume";
 
 const Main = () => (
   <Switch>
